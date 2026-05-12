@@ -8,8 +8,6 @@
      width="180" height="180"
      style="border-radius:50%; object-fit:cover;" />
 
-<p>📍 Grenoble, France</p>
-
 <p>
   <a href="https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-angot-38595239a/">
     <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" width="16"/> LinkedIn
