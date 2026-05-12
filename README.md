@@ -39,8 +39,7 @@ I am a CNRS Research Scientist at the
 </p>
 
 <p>
-My research focuses on the impact of global changes on the cycle of contaminants (e.g., mercury, microplastics).
-I currently lead research projects in remote regions of the world, including the Arctic, the French Alps, and the Southern Ocean, using both field observations and modeling tools.
+My work explores the impact of global changes on the cycle of contaminants like mercury and microplastics, with a focus on remote regions such as the Arctic, the French Alps, and the Southern Ocean. Through field observations and modeling, I aim to understand and mitigate the environmental risks posed by these pollutants. I currently lead several international research projects and welcome collaborations in this field.
 </p>
 
     </td>
