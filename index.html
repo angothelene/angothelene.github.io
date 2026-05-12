@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hélène Angot | CNRS Research Scientist</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        /* Header and Profile Section */
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .profile-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .social-links img {
+            width: 16px;
+            height: 16px;
+        }
+
+        /* Main Content */
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        section {
+            background: white;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
+        /* Projects and Publications */
+        .project, .publication {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .project:last-child, .publication:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .project h4, .publication h4 {
+            margin: 0 0 5px 0;
+            color: #2c3e50;
+        }
+
+        .project p, .publication p {
+            margin: 5px 0;
+            color: #555;
+        }
+
+        .project a, .publication a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .project a:hover, .publication a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #777;
+            font-size: 0.9em;
+        }
+
+        /* Responsive Adjustments */
+        @media (min-width: 768px) {
+            .profile-container {
+                flex-direction: row;
+                text-align: left;
+                gap: 40px;
+            }
+
+            .profile-img {
+                margin: 0;
+            }
+
+            .social-links {
+                justify-content: flex-start;
+            }
+
+            .content {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            section {
+                flex: 1;
+                min-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="profile-container">
+            <img src="https://www.ige-grenoble.fr/IMG/jpg/heleneangot.jpg"
+                 alt="Hélène Angot, CNRS Research Scientist"
+                 class="profile-img">
+            <div>
+                <h1>Hélène Angot</h1>
+                <p>CNRS Research Scientist</p>
+                <p>Institute of Environmental Geosciences, Grenoble, France</p>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-angot-38595239a/">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn" /> LinkedIn
+            </a>
+            <a href="https://github.com/angothelene">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" /> GitHub
+            </a>
+            <a href="https://scholar.google.com/citations?user=zYfAylkAAAAJ&hl=en">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" alt="Google Scholar" /> Google Scholar
+            </a>
+            <a href="https://orcid.org/0000-0003-4673-8249">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/orcid.svg" alt="ORCID" /> ORCID
+            </a>
+        </div>
+    </header>
+
+    <div class="content">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                I am a CNRS Research Scientist at the <a href="https://www.ige-grenoble.fr/">Institute of Environmental Geosciences</a> in Grenoble, France.
+            </p>
+            <p>
+                My research focuses on the impact of global changes on the cycle of contaminants such as mercury and microplastics.
+                I lead research projects in remote regions of the world, including the Arctic, the French Alps, and the Southern Ocean, using both field observations and modeling tools.
+                My goal is to understand and mitigate the environmental risks posed by these pollutants in vulnerable ecosystems.
+            </p>
+            <p>
+                Feel free to reach out for collaborations, questions, or discussions about environmental geosciences!
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>Research Projects</h2>
+
+            <div class="project">
+                <h4><a href="#">Mercury Dynamics in the Arctic</a></h4>
+                <p><strong>Role:</strong> Principal Investigator</p>
+                <p><strong>Description:</strong> Investigating the transport and transformation of mercury in Arctic ecosystems, with a focus on atmospheric deposition and its impact on local food webs.</p>
+                <p><strong>Duration:</strong> 2022–2026</p>
+            </div>
+
+            <div class="project">
+                <h4><a href="#">Microplastics in Alpine Lakes</a></h4>
+                <p><strong>Role:</strong> Co-Investigator</p>
+                <p><strong>Description:</strong> Assessing the presence and sources of microplastics in high-altitude lakes of the French Alps, and their potential ecological consequences.</p>
+                <p><strong>Duration:</strong> 2021–2025</p>
+            </div>
+
+            <div class="project">
+                <h4><a href="#">Southern Ocean Contaminant Cycle</a></h4>
+                <p><strong>Role:</strong> Lead Researcher</p>
+                <p><strong>Description:</strong> Studying the long-range transport of pollutants to the Southern Ocean and their accumulation in marine organisms.</p>
+                <p><strong>Duration:</strong> 2020–2024</p>
+            </div>
+        </section>
+
+        <section id="publications">
+            <h2>Selected Publications</h2>
+
+            <div class="publication">
+                <h4><a href="#">Atmospheric Mercury Deposition in Polar Regions</a></h4>
+                <p><strong>Journal:</strong> Environmental Science & Technology, 2023</p>
+                <p><strong>DOI:</strong> <a href="#">10.xxxx/xxxx</a></p>
+                <p>This study explores the seasonal variability of mercury deposition in the Arctic and its correlation with climate change indicators.</p>
+            </div>
+
+            <div class="publication">
+                <h4><a href="#">Microplastics in Freshwater Ecosystems: A Global Perspective</a></h4>
+                <p><strong>Journal:</strong> Nature Communications, 2022</p>
+                <p><strong>DOI:</strong> <a href="#">10.xxxx/xxxx</a></p>
+                <p>A comprehensive review of microplastic pollution in freshwater systems, highlighting gaps in current research and future directions.</p>
+            </div>
+
+            <div class="publication">
+                <h4><a href="#">Modeling the Transport of Persistent Organic Pollutants to Remote Regions</a></h4>
+                <p><strong>Journal:</strong> Atmospheric Chemistry and Physics, 2021</p>
+                <p><strong>DOI:</strong> <a href="#">10.xxxx/xxxx</a></p>
+                <p>Developed a global model to simulate the long-range transport of POPs and their deposition in pristine environments.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2026 Hélène Angot | <a href="https://github.com/angothelene">View on GitHub</a></p>
+    </footer>
+</body>
+</html>
