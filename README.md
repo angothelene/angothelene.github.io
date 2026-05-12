@@ -1,5 +1,6 @@
 <table>
   <tr>
+
     <!-- LEFT COLUMN -->
     <td width="30%" valign="top">
 
@@ -7,7 +8,7 @@
      width="180" height="180"
      style="border-radius:50%; object-fit:cover;" />
 
-📍 Grenoble, France
+<p>📍 Grenoble, France</p>
 
 <p>
   <a href="https://www.linkedin.com/in/h%C3%A9l%C3%A8ne-angot-38595239a/">
@@ -32,12 +33,19 @@
     <!-- RIGHT COLUMN -->
     <td width="70%" valign="top">
 
-### About me
+<h3>About me</h3>
 
-I am a CNRS Research Scientist at the [Institute of Environmental Geosciences](https://www.ige-grenoble.fr/) in Grenoble (France).
+<p>
+I am a CNRS Research Scientist at the 
+<a href="https://www.ige-grenoble.fr/">Institute of Environmental Geosciences</a> in Grenoble (France).
+</p>
 
-My research focuses on the impact of global changes on the cycle of contaminants (e.g., mercury, microplastics). I currently lead research projects in remote regions of the world, including the Arctic, the French Alps, and the Southern Ocean, using both field observations and modeling tools.
+<p>
+My research focuses on the impact of global changes on the cycle of contaminants (e.g., mercury, microplastics).
+I currently lead research projects in remote regions of the world, including the Arctic, the French Alps, and the Southern Ocean, using both field observations and modeling tools.
+</p>
 
     </td>
+
   </tr>
 </table>
